@@ -58,7 +58,7 @@ Password is defined in [server/db/index.js](server/db/index.js) (default is: 121
 ``` sh
 nodemon server/server.js
 ```
-and navigate to [localhost:8000](https://127.0.0.1:8000)
+and navigate to [localhost:8000](http://127.0.0.1:8000)
 
 Webpack development notes:
 - Start with ``webpack -w`` to continue watching files. Use ``webpack -p`` to minify for production version. NB: occasionally ``webpack -w`` won't hear latest changes. Restart it occasionally/if your bug seems weird.
