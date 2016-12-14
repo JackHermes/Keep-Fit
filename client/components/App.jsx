@@ -15,6 +15,7 @@ import {Router, Route, IndexRoute, Link, browserHistory} from 'react-router';
 import Signup from './Signup.jsx';
 import User from './User.jsx';
 import Workout from './Workout.jsx';
+import Splash from './Splash.jsx'
 
 const App = () => (
   <div>
@@ -37,7 +38,7 @@ const App = () => (
 
 ReactDOM.render((
   <Router history={browserHistory}>
-    <Route path='/' component={App}/>
+    <Route path='/' component={Splash}/>
     <Route path='/signup' component={Signup}/>
     <Route path='/user' component={User}/>
     <Route path='/workout' component={Workout}/>

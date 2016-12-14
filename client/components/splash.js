@@ -105,4 +105,4 @@ function render(a) {
   renderer.render(scene, camera);
 }
 
-init();
+module.exports.init = init;

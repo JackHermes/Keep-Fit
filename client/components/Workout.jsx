@@ -1,4 +1,4 @@
-import { Link, browserHistory }from 'react-router';
+import { Link, browserHistory } from 'react-router';
 
 export default class Workout extends React.Component {
   constructor(props) {
