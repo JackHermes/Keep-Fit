@@ -39,7 +39,6 @@ If you want to test out any mySQL queries follow the installation instructions h
 - Express 4.14.x
 - Morgan 1.7.x
 - Mysql 2.12.x
-- Node 6.9.x
 - Nodemon 1.11.x
 - Path 0.12.x
 - React 15.4.x
